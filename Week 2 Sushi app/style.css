@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Mulish;
+    overflow: hidden;
+}
+
+#main {
+    overflow: hidden;
+}
+
+.background {
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.horizontalnav {
+    position: absolute;
+    visibility: hidden;
+    width: 22.42px;
+    height: 155.29px;
+    left: 58px;
+    top: 60%;
+    background-color: transparent;
+}
+
+.dots {
+    border: 1px solid white;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin: auto 4px;
+    margin-top: 22px;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 40px;
+    left: 55px;
+    top: 380px;
+}
+#rightarrow{
+    margin-left: 1120px;
+}
+
+.bg-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.bg-content h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    margin-bottom: 28px;
+    color: #FFFFFF;
+}
+
+.bg-content p {
+    width: 585px;
+    height: 62px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    margin-left: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.home-btns {
+    margin-top: 35px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#cart {
+    margin-left: 10px;
+}
+.menu-container {
+    position: relative;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-sidebar {
+    box-sizing: border-box;
+    position: absolute;
+    width: 90px;
+    height: 550px;
+    left: 250px;
+    top: 23px;
+    margin-top: -3px;
+    background: #0C0B0B;
+    border-radius: 24px;
+    box-shadow: 6px 2px 25px rgba(19, 19, 19, 0.6764);
+    
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+
+#home img, #rest img, #rest1 img, #cart-logo img, #cart-logo1 img, #location img, #logout img {
+    width: 20px;
+    height: 20px;
+}
+#logo img {
+    width: 30px;
+    height: 36px;
+}
+
+#logo, #home, #cart-logo, #location, #logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#rest1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#rest, #cart-logo1 {
+    background-color: #F1D5BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu-foods {
+    position: absolute;
+    left: 400px;
+    top: 23px;
+    margin-top: 5px;
+}
+h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 2px;
+    color: #000000;
+}
+
+.line {
+    position: absolute;
+    width: 150px;
+    height: 3px;
+    top: 36px;
+    background: #F1D5BB;
+}
+
+.line1 {
+    position: absolute;
+    width: 70px;
+    height: 3px;
+    top: 36px;
+    background: #F1D5BB;
+}
+
+.food-categories {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#food1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -25px;
+}
+#food2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.food {
+    margin-right: 10px;
+}
+.food1, .food2 {
+    padding: 0 10px;
+    margin: 10px 0;
+}
+.food img, .food1 img, .food2 img {
+    width: 100px;
+    height: 130px;
+    border-radius: 2px;
+}
+
+.food p, .food1 p, .food2 p {
+    font-weight: 600;
+    font-size: 12px;
+    color: #000000;
+    margin-top: 4px;
+}
+
+.menu-foods a {
+    position: absolute;
+    margin-top: 10px;
+    float: left;
+    left: 160px;
+}
+
+.menu-foods button {
+    background-color: #000000;
+    color: #ffffff9e;
+    border-radius: 2px;
+}
+
+#copy {
+    position: absolute;
+    margin-top: 120px;
+    font-weight: 600;
+    font-size: 10px;
+    color: #000000;
+}
+
+.order-categories {
+
+    display: flex;
+    margin-top: 50px;
+}
+#cart1 {
+    width: 400px;
+    height: 380px;
+    background: #F1D5BB;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+}
+.cart-item {
+    width: 360px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.food-details {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.add {
+    position: absolute;
+    float: right;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    left: 250px;
+}
+
+.minus {
+    width: 20px;
+    height: 15px;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 3px;
+    background-color: transparent;
+}
+
+.plus {
+    width: 20px;
+    height: 15px;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 3px;
+    background-color: transparent;
+}
+
+.number {
+    width: 20px;
+    height: 15px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    float: right;
+    left: 350px;
+    font-size: 12px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.circle-food {
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+#cart2 {
+    width: 220px;
+    height: 380px;
+    display: block;
+    background: transparent;
+    border-radius: 3px;
+    margin-left: 40px;
+}
+
+.order-details {
+    position: relative;
+    display: inline-block;
+    width: 220px;
+    height: 190px;
+    border-radius: 3px;
+    background-color: #F1D5BB;
+}
+
+.order-amount {
+    display: inline-flex;
+    flex-direction: row;
+    
+}
+
+.order-amount h6 {
+    position: absolute;
+    left: 18px;
+    top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.order-amount p {
+    position: absolute;
+    left: 90px;
+    top: 36px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.promo {
+    position: relative;
+    width: 220px;
+    height: 190px;
+    border: 1px solid #F1D5BB;
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+.order-details a {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.order-details a button {
+    width: 180px;
+    height: 40px;
+    color: #FFFFFF;
+}
+
+.promo h3, .order-details h3 {
+    position: absolute;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    top: 10px;
+    left: 18px;
+    margin-top: 2px;
+    color: #000000;
+}
+
+input {
+    position: absolute;
+    width: 180px;
+    height: 38px;
+    top: 50px;
+    left: 16px;
+    padding-left: 8px;
+    color: rgba(0, 0, 0, 0.6);
+    background-color: #FFFFFF;
+    border: 1px solid #F1D5BB;
+}
+.promo a {
+    position: absolute;
+    top: 95px;
+    left: 18px;
+    font-style: normal;
+    font-weight: 200;
+    cursor: pointer;
+}
+.promo a button {
+    width: 110px;
+    height: 40px;
+    color: #FFFFFF;
+}
+
+.close img{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+}
+.f-detail h4 {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.f-detail p{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: -12px;
+    margin-left: 10px;
+    color: black;
+}
+
+#copy1 {
+    position: absolute;
+    margin-top: 70px;
+    font-weight: 600;
+    font-size: 10px;
+    color: #000000;
+}
